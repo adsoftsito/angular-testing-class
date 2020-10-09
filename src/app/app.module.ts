@@ -3,11 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ComputeDemoComponent } from './compute-demo/compute-demo.component';
+import { GreetDemoComponent } from './greet-demo/greet-demo.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ComputeDemoComponent
+    ComputeDemoComponent,
+    GreetDemoComponent
   ],
   imports: [
     BrowserModule
